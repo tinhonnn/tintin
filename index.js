@@ -88,7 +88,8 @@ Tuy những giải đấu tụi mình tham gia đều thua te tua, nhưng chính
 Dù mai này có xa xôi cách trở, hãy luôn nhớ: xa mặt chứ đừng cách lòng. Chúc mừng sinh nhật bạn – người bạn không chỉ đá banh cùng, mà còn là một phần của thanh xuân tôi! 🎁🎉`
     ];
 
-    giftBox.addEventListener('click', () => {
+   giftBox.addEventListener('click', () => {
+  console.log("🎁 Gift box clicked!");
       giftBox.style.display = 'none';
       message.style.display = 'block';
 
