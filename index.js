@@ -20,19 +20,23 @@ Chúc mừng sinh nhật bạn – người bạn không chỉ đá banh cùng, 
 ];
 
 giftBox.addEventListener('click', () => {
-    giftBox.style.display = 'none';
-    setTimeout(() => {
+  giftBox.style.display = 'none';
   message.style.display = 'block';
-}, 500);
-    
-        for (let i = 0; i < 50; i++) {
-            const confetti = document.createElement('div');
-            confetti.classList.add('confetti');
-            confetti.style.left = Math.random() * 100 + 'vw';
-            confetti.style.backgroundColor = `hsl(${Math.random() * 360}, 70%, 60%)`;
-            confetti.style.animationDelay = `${Math.random() * 5}s`;
-            document.body.appendChild(confetti);
-        }
+  message.classList.remove("hidden");
+  message.classList.add("show");
+
+  // Play music
+  birthdayMusic.play();
+
+  // Confetti effect
+  for (let i = 0; i < 50; i++) {
+    const confetti = document.createElement('div');
+    confetti.classList.add('confetti');
+    confetti.style.left = Math.random() * 100 + 'vw';
+    confetti.style.backgroundColor = `hsl(${Math.random() * 360}, 70%, 60%)`;
+    confetti.style.animationDelay = `${Math.random() * 5}s`;
+    document.body.appendChild(confetti);
+  }
     }, 1000);
     birthdayMusic.play();
 });
