@@ -22,7 +22,8 @@ Chúc mừng sinh nhật bạn – người bạn không chỉ đá banh cùng, 
 giftBox.addEventListener('click', () => {
     giftBox.style.display = 'none';
     setTimeout(() => {
-        message.style.display = 'block';
+  message.style.display = 'block';
+}, 500);
     
         for (let i = 0; i < 50; i++) {
             const confetti = document.createElement('div');
