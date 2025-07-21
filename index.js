@@ -4,9 +4,17 @@ const birthdayText = document.getElementById("birthdayText");
 const birthdayMusic = document.getElementById("birthdayMusic");
 
 const texts = [
-  "Chúc bro tuổi mới full niềm vui, full máu, full thành công luôn 🥳🔥",
-  "Học kỳ tới auto điểm cao, học bổng bay vào tay 😎✨",
-  "Sinh nhật thì quẩy banh nóc, quà nhận không kịp đếm, deadline tự né ra cho bro chill tẹt ga 🎁🎉"
+  "Chúc mừng sinh nhật bạn Gia Huy – Người đồng đội trên sân cỏ và tri kỷ tuổi học trò!
+
+Nhớ những ngày tháng “chinh chiến” trên sân đá banh, từng trận đấu không phân thắng bại, từng cú sút căng như đời học sinh năm cuối. Mồ hôi thì chảy như suối, nhưng tình bạn thì cũng vì thế mà lớn dần theo từng nhịp bóng lăn. Mình đâu ngờ những buổi chiều tưởng chỉ đá cho vui lại trở thành một phần ký ức quý giá của tuổi trẻ. 🥳🔥",
+  "Rồi những hôm kéo nhau đi Luxury Billiard, đứa thì đánh bi, đứa thì lo canh giờ, đứa thì… bày trò chọc phá. Cứ thế mà quen nhau, gắn bó chẳng cần lý do, chỉ cần vài trận banh, vài cú bi trượt là đủ để trở thành bạn thân. Ngày đó, bọn mình nghĩ rằng thời gian còn dài lắm, chẳng bao giờ phải xa nhau. Ấy vậy mà bây giờ, mỗi đứa đã có một hành trình riêng😎✨. Còn nhớ không? Cái thời bạn mới quen Trà My, tôi còn giúp bạn mua hoa tặng người ta. Đi chọn từng bông, ngồi gói từng cành như thể là chuyện quan trọng nhất thế giới. Hồi đó tụi mình còn chẳng hiểu thế nào là "yêu", chỉ biết rằng giúp bạn là vui, là đúng. Ừ thì, những kỷ niệm đó thiết nghĩ chỉ có trong tuổi học trò – vô tư, hồn nhiên, và không tính toán điều gì.
+
+Lúc mới gặp nhau, ai mà ngờ tụi mình sẽ thân thiết đến thế? Thế nhưng ông trời hình như đã sắp đặt để chúng ta có cơ hội ở bên nhau – để rồi từ những người xa lạ, lại trở thành một phần trong cuộc đời nhau. Đừng để tình bạn này chỉ là kỷ niệm, hãy giữ nó sống mãi, bạn nhé.",
+  "Sinh nhật này, tớ chúc bạn thật nhiều sức khỏe, hành trình du học ở Trung Quốc thuận buồm xuôi gió, học hành tấn tới. Sau này về thì nhớ giữ lời hứa là buôn thuốc lá cho nhà – không phải chỉ trong nước đâu, mà còn xuất khẩu sang các tiểu hành tinh khác trên vũ trụ!
+
+Dù mai này có xa xôi cách trở, hãy luôn nhớ: xa mặt chứ đừng cách lòng.
+
+Chúc mừng sinh nhật bạn – người bạn không chỉ đá banh cùng, mà còn là một phần của thanh xuân tôi!🎁🎉"
 ];
 
 giftBox.addEventListener('click', () => {
